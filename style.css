@@ -33,6 +33,7 @@
 html,
 body {
     height: 100%;
+    background-color: rgb(226, 226, 226);
 }
 
 :root {
@@ -93,10 +94,12 @@ a,
 .header {
     display: grid;
     grid-template-rows: 60px 1fr;
+    padding: 0 clamp(15px, 2%, 45px);
+    box-shadow: 0px 5px 5px rgb(168, 168, 168);
+    background-color: white;
 }
 
 .headerTop {
-    padding: 0 15px;
     gap: 15px;
     font-weight: 600;
     display: flex;
@@ -110,7 +113,7 @@ input[type="search"] {
     height: 25px;
     width: 70%;
     padding-left: 10px;
-    background-color: lightgray;
+    background-color: rgb(226, 226, 226);
 }
 
 .bellIcon {
@@ -124,12 +127,38 @@ input[type="search"] {
 /* header bottom  */
 
 .headerBottom {
-    background-color: lightgreen;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.headerBottomTextTop {
+    font-size: 1rem;
+}
+
+.headerBottomTextBottom {
+    font-size: 1.5rem;
+}
+
+.headerBottom button {
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 35px;
+    width: 85px;
+    border-radius: 18px;
+}
+
+.headerBottom button:first-of-type {
+    margin-left: auto;
 }
 
 /* Content  */
 
 .content {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
