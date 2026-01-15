@@ -219,6 +219,7 @@ button:hover {
 }
 
 /* announcements and trending  */
+/* announcements  */
 
 .contentRightSide {
     max-height: 640px;
@@ -250,4 +251,15 @@ button:hover {
     border-bottom: 1px solid lightgray;
 }
 
+/* trending  */
+
+.trendingSection {
+    display: flex;
+    gap: 10%;
+}
+
+.trendingProject {
+    font-size: .8rem;
+    color: gray;
+}
 
