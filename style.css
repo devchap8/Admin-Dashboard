@@ -235,6 +235,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: var(--shadow);
 }
 
 .announcementContent {
